@@ -1,6 +1,6 @@
 let productos = [];
 const contenedorProductos = document.querySelector("#contenedor-productos");
-const productosListado = "https://nicodelafuente.github.io/entrega-final-javascript/json/productos.json";
+const productosListado = "https://nicodelafuente.github.io/entrega-final-javascript/productos.json";
 const botonesMenu = document.querySelectorAll(".boton-menu");
 let numeroCarrito = document.querySelector("#numero-carrito");
 
