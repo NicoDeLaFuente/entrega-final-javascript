@@ -1,0 +1,27 @@
+[
+    
+    {"id":"iluminacion-01", "titulo":"Bola disco led", "precio":2350, "imagen":"./assets/iluminacion/iluminacion-01.jpg", "categoria": "iluminacion", "cantidad":1 },
+    {"id":"iluminacion-02", "titulo":"Faroles exteriores dobles", "precio":13100, "imagen":"./assets/iluminacion/iluminacion-02.png", "categoria": "iluminacion", "cantidad":1 },
+    {"id":"iluminacion-03", "titulo":"Colgante de luces", "precio":1300, "imagen":"./assets/iluminacion/iluminacion-03.jpg", "categoria": "iluminacion", "cantidad":1 },
+    {"id":"iluminacion-04", "titulo":"Luz led de emergencia", "precio":3200, "imagen":"./assets/iluminacion/iluminacion-04.jpg", "categoria": "iluminacion", "cantidad":1 },
+    {"id":"iluminacion-05", "titulo":"Iluminaria fija exterior led", "precio":3200, "imagen":"./assets/iluminacion/iluminacion-05.jpg", "categoria": "iluminacion", "cantidad":1 },
+    {"id":"iluminacion-06", "titulo":"Lámpara led dicroica", "precio":2000, "imagen":"./assets/iluminacion/iluminacion-06.jpg", "categoria": "iluminacion", "cantidad":1 },
+    {"id":"iluminacion-07", "titulo":"Lámpara led color", "precio":1850, "imagen":"./assets/iluminacion/iluminacion-07.jpg", "categoria": "iluminacion", "cantidad":1 },
+
+
+    {"id":"mat-electrico-01", "titulo":"Alargue con USB", "precio":3100, "imagen":"./assets/materiales-electricos/01.png", "categoria": "materiales-electricos", "cantidad":1 },
+    {"id":"mat-electrico-02", "titulo":"Alargue con cuatro enchufes", "precio":2500, "imagen":"./assets/materiales-electricos/02.png", "categoria": "materiales-electricos", "cantidad":1 },
+    {"id":"mat-electrico-03", "titulo":"Alargue con seis enchufes", "precio":2900, "imagen":"./assets/materiales-electricos/03.png", "categoria": "materiales-electricos", "cantidad":1 },
+    {"id":"mat-electrico-04", "titulo":"Caja para interruptores con tapa", "precio":1900, "imagen":"./assets/materiales-electricos/04.png", "categoria": "materiales-electricos", "cantidad":1 },
+    {"id":"mat-electrico-05", "titulo":"Caja para interruptores sin tapa", "precio":1500, "imagen":"./assets/materiales-electricos/05.png", "categoria": "materiales-electricos", "cantidad":1 },
+    {"id":"mat-electrico-06", "titulo":"Tapa sies módulos oro", "precio":1400, "imagen":"./assets/materiales-electricos/06.png", "categoria": "materiales-electricos", "cantidad":1 },
+
+
+
+    {"id":"equipamiento-01", "titulo":"Cúter retráctil", "precio":4000, "imagen":"./assets/equipamiento/01.jpg", "categoria": "equipamiento", "cantidad":1 },
+    {"id":"equipamiento-02", "titulo":"Destornillador buscapolos", "precio":8000, "imagen":"./assets/equipamiento/02.jpg", "categoria": "equipamiento", "cantidad":1 },
+    {"id":"equipamiento-03", "titulo":"Destornillador Phillips", "precio":10000, "imagen":"./assets/equipamiento/03.jpg", "categoria": "equipamiento", "cantidad":1 },
+    {"id":"equipamiento-04", "titulo":"Destornillador plano", "precio":10000, "imagen":"./assets/equipamiento/04.jpg", "categoria": "equipamiento", "cantidad":1 },
+    {"id":"equipamiento-05", "titulo":"Pasacables profesional", "precio":6000, "imagen":"./assets/equipamiento/05.jpg", "categoria": "equipamiento", "cantidad":1 }
+    
+]

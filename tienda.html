@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>Electro DM</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header class="header__tienda">
+            <a href="./index.html"><img class="logo" src="./assets/logo.jpg" alt="Logo"></a>
+
+            <nav>
+                <ul class="menu">
+                    <li><button id="todos" class="boton-menu "><i
+                                class="bi bi-arrow-right-circle-fill"></i>Todos
+                            los productos</button></li>
+                    <li><button id="iluminacion" class="boton-menu"><i
+                                class="bi bi-arrow-right-circle-fill"></i>Iluminación</button></li>
+                    <li><button id="materiales-electricos" class="boton-menu"><i
+                                class="bi bi-arrow-right-circle-fill"></i>Materiales eléctricos</button></li>
+                    <li><button id="equipamiento" class="boton-menu"><i
+                                class="bi bi-arrow-right-circle-fill"></i>Equipamiento</button></li>
+                    <li class="boton-carrito"></i><a href="./carrito.html"><i class="bi bi-cart-fill"></i>Carrito <spam
+                                id="numero-carrito" class="numero-carrito">0</spam></a></li>
+                </ul>
+
+            </nav>
+        </header>
+
+
+
+        <main>
+            <h1 id="titulo">TODOS LOS PRODUCTOS</h1>
+            <div id="contenedor-productos" class="contenedor-productos">
+
+            </div>
+
+
+        </main>
+
+        <footer>
+            <p class="footer-tienda">© 2022. Electro DM </p>
+        </footer>
+
+    </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./script/tienda.js"></script>
+</body>
+
+</html>
