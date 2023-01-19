@@ -1,8 +1,9 @@
 let productos = [];
 const contenedorProductos = document.querySelector("#contenedor-productos");
-const productosListado = "/json/productos.json"
+const productosListado = "../json/productos.json"
 const botonesMenu = document.querySelectorAll(".boton-menu");
 let numeroCarrito = document.querySelector("#numero-carrito");
+
 
 fetch(productosListado)
     .then(response => response.json())
