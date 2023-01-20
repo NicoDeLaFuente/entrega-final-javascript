@@ -1,11 +1,6 @@
 let productos = [];
-const contenedorProductos = document.querySelector("#contenedor-productos");
-const productosListado = "https://nicodelafuente.github.io/entrega-final-javascript/productos.json";
-const botonesMenu = document.querySelectorAll(".boton-menu");
-let numeroCarrito = document.querySelector("#numero-carrito");
 
-
-fetch(productosListado)
+fetch("./script/productos.json")
     .then(response => response.json())
     .then(data => {
         productos = data;
@@ -14,6 +9,10 @@ fetch(productosListado)
     .catch(error => console.log(error));
 
 console.log(productos)
+
+const contenedorProductos = document.querySelector("#contenedor-productos");
+const botonesMenu = document.querySelectorAll(".boton-menu");
+let numeroCarrito = document.querySelector("#numero-carrito");
 
 function mostrarProductos (productosElegidos) {
 
