@@ -27,7 +27,7 @@ function mostrarProductos (productosElegidos) {
                     <img class="producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
                     <div class="producto-abajo">
                     <p class="producto-titulo">${producto.titulo}</p>
-                    <small class="producto-precio">${producto.precio}$</small>
+                    <small class="producto-precio">$${producto.precio}</small>
                     <button class="producto-boton" id="${producto.id}">Agregar</button>
                      </div>
                 `;
