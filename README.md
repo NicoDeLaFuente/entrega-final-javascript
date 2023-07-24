@@ -1,4 +1,4 @@
-# entrega-final-javascript
+# Entrega-final-javascript
 
 This is the final project for my JavaScript course.
 
